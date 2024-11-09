@@ -1,0 +1,72 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 50px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.mode-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.mode-button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.mode-indicator {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.input-form {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.result h2 {
+  color: #333;
+}
